@@ -1,0 +1,180 @@
+
+body {
+    color: #531D40;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Merriweather', sans-serif;
+    line-height: 2;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(150, 29, 108);
+}
+
+
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+td{
+  word-wrap:break-word;
+}
+.info_table{
+
+  border: 1px solid black;
+   padding: 20px;
+}
+
+.table_width{
+  margin-left: auto;
+  margin-right: auto;
+ border-collapse: collapse;
+ border-spacing: 0;
+ table-layout:fixed;
+ width: 80%;
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #13103c;
+}
+
+.top-box {
+    background-color: #FFE3DC;
+    text-align: center;
+    position: relative;
+    padding: 40px 0 0;
+}
+
+.my-name {
+    margin-bottom: 10px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+}
+
+.about-me-description {
+    margin-bottom: 350px;
+}
+
+.balloon-image {
+    position: absolute;
+    left: calc(50% - 70.5px);
+    bottom: 200px;
+    animation-name: balloon-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes balloon-animation {
+    0% {
+        bottom: 170px;
+    }
+    50% {
+        bottom: 230px;
+    }
+    100% {
+        bottom: 170px;
+    }
+}
+
+.ground {
+    width: 700px;
+    max-width: 100%;
+    margin-bottom: -4px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+
+.bottom-box {
+    background-color: #FFE3DC;
+    padding: 70px 0 10px 0;
+    text-align: center;
+}
+
+.contact-me {
+    margin: 10px 70px;
+    height: 30px;
+}
+
+.inline {
+    display: inline;
+}
+
+.contact-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.my-description {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(150, 29, 108);
+}
+
+.middle-box {
+    margin-top: 70px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.horizontal-ruler {
+    height: 0;
+    border-style: dotted none none none;
+    border-width: 10px;
+    width: 50px;
+}
+
+.spacing {
+    height: 50px;
+}
+.copyrights {
+    color: rgb(150, 29, 108);
+    font-size: 14px;
+    margin-top: 30px;
+}
